@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "author": {
+    "name": "Example Author",
+    "url": "https://example.com"
+  },
+  "templates": [
+    {
+      "id": "test-template",
+      "name": "test template",
+      "description": "simpe template to see how templates hosted on github look",
+      "path": "test-template",
+      "versions": [
+        {
+          "version": "0.0.1",
+          "description": "",
+          "stable": false,
+          "components": [
+            "keboola.python-transformation-v2",
+            "keboola.variables",
+            "keboola.wr-storage"
+          ],
+          "path": "v0"
+        }
+      ]
+    }
+  ]
+}
